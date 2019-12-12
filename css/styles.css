@@ -213,13 +213,22 @@
   margin: 0 auto;
 }
 
-.intro-logo #hfclogo {
-  fill: #000;
-  opacity: 1;
-/*  transition: fill 4.1s ease; */
+#hfclogo > path {
   animation: SVGreFill 2.5s ease-in-out;
   animation-delay: .5s;
   animation-fill-mode: forwards;
+}
+
+#icon-h {
+  fill: #f00;
+}
+
+#icon-f {
+  fill: #0f0;
+}
+
+#icon-c {
+  fill: #00f;
 }
 
 .intro-logo #hfcname {
@@ -247,7 +256,7 @@
 
 @keyframes SVGreFill {
   0% {
-  fill: #000;
+  fill: inherit;
   }
 
   100% {
