@@ -209,19 +209,20 @@
 }
 
 .intro-logo svg {
-  width: 46%;
+  width: 35%;
+  margin: 0 auto;
 }
 
-#hfclogo {
+.intro-logo #hfclogo {
   fill: #fff;
-  opacity: 0;
+  opacity: 1;
   transition: fill 4.1s ease;
-  animation: fadeUp 2.5s ease-in-out;
+  /* animation: fadeUp 2.5s ease-in-out;
   animation-delay: .5s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
-#hfcname {
+.intro-logo #hfcname {
   fill: #fefefe;
   opacity: 0;
   transition: fill 6s ease-in-out;
