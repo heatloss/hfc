@@ -2,4 +2,4 @@
 CSS Animation
 
 ## Resource
-- (Animation)[https://www.icmpartners.com/]
+- [Animation](https://www.icmpartners.com/)
