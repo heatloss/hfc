@@ -1,5 +1,6 @@
 # HFC
 CSS Animation
+- [Github Pages](https://berryny.github.io/hfc)
 
 ## Resource
-- [Animation](https://www.icmpartners.com/)
+- [Animation Effect](https://www.icmpartners.com)
