@@ -214,12 +214,12 @@
 }
 
 .intro-logo #hfclogo {
-  fill: #fff;
+  fill: #000;
   opacity: 1;
-  transition: fill 4.1s ease;
-  /* animation: fadeUp 2.5s ease-in-out;
+/*  transition: fill 4.1s ease; */
+  animation: SVGreFill 2.5s ease-in-out;
   animation-delay: .5s;
-  animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
 }
 
 .intro-logo #hfcname {
@@ -242,5 +242,15 @@
     opacity: 1;
     transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes SVGreFill {
+  0% {
+  fill: #000;
+  }
+
+  100% {
+  fill: #fff;
   }
 }
